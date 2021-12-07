@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Full Stack Portfolio</title>
-  </head>
-  <body>
-
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <header class="ciao">
+                <h1>Say Ciao!</h1>
+            </header>
+            <div class="form">
+                <form action="">
+                    <div class="input-area">
+                        <label for="name">Your Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-area">
+                        <label for="email">Email</label>
+                        <input required type="email" placeholder="Enter your email address">
+                    </div>
+                    <div class="select-option">
+                        <label for="services">Services required</label>
+                        <select required name="options">
+                            <option value="choose">Choose services</option>
+                            <option value="web">Web Design</option>
+                            <option value="web-main">Design and maintainance</option>
+                            <option value="cons">Consultancy</option>
+                            <option value="dev">App development</option>
+                            <option value="soft">Software development</option>
+                            <option value="else">Something else</option>
+                        </select>
+                    </div>
+                    <div class="select-option">
+                        <label for="budget">Budget</label>
+                        <select required name="price-range">
+                            <option value="Select budget">Select budget</option>
+                            <option value="£500-£1000">£500 - £1000</option>
+                            <option value="£1000-£2000">£1000 - £2000</option>
+                            <option value="£2000-£3000">£2000 - £3000</option>
+                            <option value="£3000-£4000">£3000 - £4000</option>
+                            <option value="£4000-£5000">£4000 - £5000</option>
+                            <option value="more">More than £5000</option>
+                        </select>
+                    </div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+                </form>
+            </div>
+            <div class="button">
+                <a href="/submitted-form.html">
+                    <button type="button">
+                        Submit →
+                    </button>
+                </a>
+            </div>
+        </main>
+    </body>
 </html>
